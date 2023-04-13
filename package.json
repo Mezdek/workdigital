@@ -1,0 +1,21 @@
+{
+  "name": "workdigital",
+  "version": "1.0.0",
+  "description": "application challenges",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node build/src/index.js",
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest --run",
+    "test:watch": "vitest"
+  },
+  "author": "Mezdek Osman",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "~18",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4",
+    "vite-tsconfig-paths": "^4.2.0",
+    "vitest": "^0.30.1"
+  }
+}
