@@ -1,3 +1,19 @@
-#### To test a method, open its test file and add more tests to the `projectedTests` array following the pattern provided earlier, then type `npm run test` in the terminal or `npm run test:watch` for enter surveillance mode.
+#### Instructions:
 
-- This project uses a typed node.js and vitest for testing
+#### Preparation
+
+1. Clone th repository or download it.
+2. Run `npm install`
+
+#### Test
+
+1. Open the test file of the method to test.
+2. Add more assertions, if needed, to the `proposededTests` array following the pattern provided.
+3. Run `npm run test` in the terminal or `npm run test:watch` for watch mode.
+
+---
+
+This project uses:
+
+- Node.js with TypeScript
+- [Vitest](http://vitest.dev/)
